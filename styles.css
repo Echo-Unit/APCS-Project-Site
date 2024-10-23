@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Lexend:wght@100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Lexend:wght@100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Lexend:wght@100..900&family=Lilita+One&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Fancy-regular {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(241, 230, 212);
+}
+
+a {
+  color: #5ed5ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd95e;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ff5e84;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(0, 174, 255);
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header nav ul li {
+  display: inline-block;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+.clear {
+  clear: both;
+}
+
+#project-container,
+#aboutMe {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(0, 174, 255);
+}
+
+.project img,
+#aboutMe img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.project video {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.project h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
