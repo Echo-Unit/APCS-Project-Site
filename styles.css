@@ -99,6 +99,13 @@ header nav ul li {
   margin-bottom: 10px;
 }
 
+.project iframe {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 .project h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
