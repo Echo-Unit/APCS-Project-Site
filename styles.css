@@ -24,26 +24,30 @@
   font-style: normal;
 }
 
+h1, h2, h3, p {
+  color: #FFFFFF
+}
+
 body {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(241, 230, 212);
+  background-color: #264653;
 }
 
 a {
-  color: #5ed5ff;
+  color: #C2EBFF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffd95e;
+  color: #ff2e4a;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #ff5e84;
+  color: #C2EBFF;
   text-decoration: none;
 }
 
@@ -54,7 +58,7 @@ footer {
 header {
   margin-bottom: 20px;
   padding: 20px;
-  border-bottom: 1px solid rgb(0, 174, 255);
+  border-bottom: 5px solid #880D1E;
 }
 
 header h1 {
@@ -75,13 +79,13 @@ header nav ul li {
 #aboutMe {
   margin: 0 auto;
   width: 90%;
-  max-width: 600px;
+  max-width: 75%;
 }
 
 .project {
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(0, 174, 255);
+  border-bottom: 2.5px solid #880D1E;
 }
 
 .project img,
